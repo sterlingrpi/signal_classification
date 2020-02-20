@@ -8,7 +8,7 @@ from scipy.fftpack import fft
 def visualy_inspect_generated_data(data, class_names, data_length):
     plt.figure(figsize=(10, 10))
     plt.suptitle('Training Images with Training Labels', fontsize=16)
-    for i in range(10):
+    for i in range(25):
         plt.subplot(5, 5, i + 1)
         plt.xticks([])
         plt.yticks([])
